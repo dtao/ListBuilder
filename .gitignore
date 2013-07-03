@@ -3,3 +3,5 @@ obj/
 test-results/
 *.csproj
 *.sln
+AssemblyInfo.cs
+
