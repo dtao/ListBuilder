@@ -18,13 +18,13 @@ For example, take the following input:
 
 The result of combining the above operations is:
 
-- foo
-- baz
+- 'foo'
+- 'baz'
 
-A naive O(N<sup>2</sup>) approach is obvious (start with an empty `List<T>` or
-equivalent, then read every operation and call either `Insert` and `RemoveAt`
-with the appropriate arguments). Really the challenge is to come up with an
-approach that's better than O(N<sup>2</sup>)... presumably one that's O(N).
+A naive O(N<sup>2</sup>) approach is obvious: start with an empty `List<T>` or
+equivalent, then read every operation and call either `Insert` or `RemoveAt`
+with the appropriate argument(s). Really the challenge is to come up with an
+approach that's *better* than O(N<sup>2</sup>)... presumably one that's O(N).
 
 This repo contains all of the necessary setup code in C#. Finish implementing
 the `EfficientListBuilder<T>` class, run the tests, and see if you can get them
